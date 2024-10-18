@@ -1,93 +1,93 @@
 .products {
-    background-color: #f0f0f0; /* Light background for better contrast */
+    background-color: #f0f0f0; 
     display: flex;
     flex-direction: row;
     border-radius: 8px;
-    margin: 20px; /* Increased margin for spacing */
+    margin: 20px; 
     flex-wrap: wrap;
-    justify-content: center; /* Center product cards */
-    padding: 20px; /* Padding around the product section */
+    justify-content: center; 
+    padding: 20px; 
 }
 
 /* Styling for the product card container */
 .card {
-    width: 250px; /* Fixed width for the card */
-    border-radius: 12px; /* Slightly more rounded corners for the card */
-    margin: 15px; /* Space around the card */
-    overflow: hidden; /* Ensures content stays within the rounded corners */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
-    background-color: white; /* Ensure the background is visible */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    width: 250px; 
+    border-radius: 12px; 
+    margin: 15px;
+    overflow: hidden; 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Lift the card on hover */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
 }
 
 /* Responsive styles */
 @media (max-width: 600px) {
     .card {
-        width: 90%; /* Make cards full width on small screens */
-        margin: 15px auto; /* Center the card with auto margins */
+        width: 90%; 
+        margin: 15px auto; 
     }
 }
 
 /* Styling for the card image section */
 .card_image {
     position: relative;
-    width: 100%; /* Image container takes full width of the card */
-    height: 200px; /* Fixed height for the image container */
+    width: 100%; 
+    height: 200px;
 }
 
 /* Styling for the image inside the card */
 .card_image img {
-    width: 100%; /* Image takes full width of its container */
-    height: 100%; /* Image takes full height of its container */
-    object-fit: cover; /* Ensures the image covers the container proportionally */
-    border-radius: 12px 12px 0 0; /* Rounded top corners for the image */
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 12px 12px 0 0; 
 }
 
 /* Styling for the offer label on the card image */
 .card_image span {
-    position: absolute; /* Positioned relative to the card_image container */
-    top: 10px; /* Positioned 10px from the top */
-    right: 10px; /* Positioned 10px from the right */
-    background-color: #ff5733; /* Bright color for the offer label */
-    color: white; /* White text color for better readability */
-    padding: 5px 10px; /* Padding for the label */
-    border-radius: 5px; /* Slightly rounded corners for the label */
-    font-size: 14px; /* Font size for the label text */
-    font-weight: bold; /* Bold text for emphasis */
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #ff5733; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-weight: bold; 
 }
 
 /* Styling for the card details section */
 .card_details {
-    padding: 20px; /* Increased padding for better spacing */
-    background-color: #1a331d; /* Dark green background color */
-    color: #ffffff; /* White text color for better readability */
-    text-align: left; /* Aligns text to the left */
-    border-radius: 0 0 12px 12px; /* Rounded bottom corners for the details section */
+    padding: 20px;
+    background-color: #1a331d;
+    color: #ffffff; 
+    text-align: left; 
+    border-radius: 0 0 12px 12px; 
 }
 
 /* Flexbox for aligning the item name and rating side by side */
 .name_rating {
-    display: flex; /* Flexbox to align items horizontally */
-    justify-content: space-between; /* Space between name and rating */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 /* Styling for the product name */
 .item_name h2 {
-    margin: 0; /* Remove margin for tight spacing */
-    font-size: 20px; /* Font size for the product name */
-    font-weight: bold; /* Bold text for emphasis */
-    color: #ffe600; /* Highlight product name in bright yellow */
+    margin: 0; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #ffe600; 
 }
 
 /* Styling for the star rating */
 .fa-star {
-    color: gold; /* Gold color for star icons */
+    color: gold;
 }
 
 /* Container heading styling */
@@ -98,26 +98,26 @@
     padding: 15px;
     border-radius: 12px;
     text-align: center;
-    font-size: 28px; /* Adjusted font size */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    font-size: 28px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 /* Add to Cart Button */
 .add_to_cart_button {
-    color: #1a331d; /* Dark text color */
-    background-color: #ffe600; /* Bright yellow background */
-    padding: 10px; /* Padding for button */
-    border-radius: 12px; /* Rounded corners for button */
-    border: none; /* No border */
-    font-weight: bold; /* Bold text */
-    cursor: pointer; /* Pointer cursor on hover */
-    width: 100%; /* Full width button */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    color: #1a331d; 
+    background-color: #ffe600; 
+    padding: 10px; 
+    border-radius: 12px; 
+    border: none; 
+    font-weight: bold; 
+    cursor: pointer; 
+    width: 100%; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .add_to_cart_button:hover {
-    background-color: #636414; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    background-color: #636414; 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
